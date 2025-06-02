@@ -1,0 +1,107 @@
+# Proyek Akhir: Menyelesaikan Permasalahan Dropout Mahasiswa di Institusi Pendidikan
+
+## Business Understanding
+
+Jaya Jaya Institut merupakan institusi pendidikan tinggi yang menghadapi tantangan serius terkait tingginya tingkat dropout mahasiswa (>30%). Permasalahan ini berdampak pada reputasi, efisiensi operasional, dan keberhasilan lulusan. Analisis data diperlukan untuk mengidentifikasi pola dan faktor utama penyebab dropout, serta membangun sistem prediksi dan dashboard monitoring untuk intervensi dini.
+
+### Permasalahan Bisnis
+
+Tingginya angka dropout mahasiswa di Jaya Jaya Institut menandakan adanya potensi masalah internal seperti:
+- Kesulitan akademik di semester awal
+- Permasalahan keuangan (tunggakan biaya kuliah, tidak mendapat beasiswa)
+- Kurangnya keterlibatan dalam evaluasi akademik
+- Faktor usia dan latar belakang pendidikan
+- Tantangan adaptasi pada jurusan tertentu
+
+Dampak negatif yang ditimbulkan:
+- Penurunan tingkat kelulusan dan reputasi institusi
+- Pemborosan sumber daya (waktu, biaya, tenaga pengajar)
+- Berkurangnya kepercayaan calon mahasiswa dan orang tua
+
+### Cakupan Proyek
+
+- Mengidentifikasi faktor-faktor utama penyebab dropout mahasiswa.
+- Mengambil keputusan berbasis data untuk menurunkan tingkat dropout.
+- Memonitor indikator risiko mahasiswa melalui dashboard visualisasi.
+- Melakukan analisis eksploratif terhadap data mahasiswa.
+- Membangun model prediktif untuk mengidentifikasi mahasiswa berisiko dropout.
+- Menyediakan visualisasi interaktif untuk monitoring data akademik dan keuangan mahasiswa.
+
+### Persiapan
+
+**Sumber data:** https://github.com/dicodingacademy/dicoding_dataset/tree/main/students_performance)
+
+**Setup environment:**
+```bash
+pip install -r requirements.txt
+```
+
+**Menjalankan script prediksi:**
+- Dapat dijalankan langsung di notebook pada bagian fungsi prediksi peluang dropout mahasiswa.
+- atau eksekusi dengan menggunakan terminal : python -m streamlit run app.py
+- juga bisa diakses secara online pada aplikasi dashboard (llllllllllllllllllliiiiiiiiiiiiiiinnnnnnnnkkkkkkkkkkkkkk streamlit).
+
+## Business Dashboard
+
+Dashboard visualisasi yang dikembangkan memberikan gambaran menyeluruh dan interaktif mengenai kondisi mahasiswa di Jaya Jaya Institut. Dashboard ini membantu manajemen dalam memahami tren dropout, distribusi status mahasiswa, dan faktor-faktor utama yang memengaruhi keputusan mahasiswa untuk keluar.
+link : https://lookerstudio.google.com/reporting/07abfe73-0e01-479b-b8de-f1a9de6836f4 
+
+
+**Fitur dan Informasi yang Disajikan:**
+- Distribusi status mahasiswa (Dropout, Enrolled, Graduate)
+- Dropout berdasarkan jurusan (Course) dan kelompok usia (Age Group)
+- Analisis faktor akademik: nilai, jumlah mata kuliah disetujui, progres semester awal
+- Dropout berdasarkan status keuangan (Debtor, Tuition Fees)
+- Visualisasi heatmap dan boxplot untuk insight mendalam
+- Hasil analisis model machine learning (feature importance)
+
+## Conclusion
+
+Berdasarkan hasil model **Random Forest** dan analisis data, dapat disimpulkan bahwa:
+1. **Faktor akademik semester awal** (jumlah mata kuliah disetujui dan nilai) sangat menentukan risiko dropout.
+2. **Keteraturan pembayaran biaya kuliah** dan status debitur berpengaruh kuat terhadap keputusan mahasiswa untuk bertahan atau keluar.
+3. **Usia saat masuk kuliah** dan **jurusan tertentu** memiliki tingkat dropout lebih tinggi, terutama pada kelompok usia muda dan jurusan dengan beban akademik tinggi.
+4. **Faktor ekonomi makro** (GDP, tingkat pengangguran) memiliki pengaruh lebih kecil dibanding faktor akademik dan keuangan individu.
+
+### Insight Utama
+
+Dropout mahasiswa bukan hanya persoalan akademik, tetapi juga dipengaruhi oleh faktor keuangan, keterlibatan, dan adaptasi di lingkungan kampus. Intervensi berbasis data sangat penting untuk menurunkan tingkat dropout dan meningkatkan keberhasilan studi mahasiswa.
+
+## Rekomendasi Action Items untuk Menurunkan Dropout
+
+1. **Intervensi Akademik Dini**
+    - Monitoring progres akademik mahasiswa di semester 1 & 2.
+    - Identifikasi mahasiswa dengan nilai rendah atau sedikit mata kuliah yang disetujui.
+    - Sediakan program remedial, bimbingan belajar, dan mentoring.
+
+2. **Dukungan Keuangan dan Konseling**
+    - Identifikasi mahasiswa dengan tunggakan biaya kuliah.
+    - Tawarkan solusi seperti keringanan, cicilan, atau beasiswa tambahan.
+    - Perkuat layanan konseling keuangan.
+
+3. **Pendekatan Khusus untuk Jurusan dan Usia Risiko Tinggi**
+    - Fokuskan program pencegahan dropout pada jurusan dan kelompok usia dengan risiko tinggi.
+    - Kembangkan program orientasi dan adaptasi untuk mahasiswa baru dan mahasiswa dewasa.
+
+4. **Peningkatan Keterlibatan Akademik**
+    - Dorong partisipasi aktif dalam evaluasi dan kegiatan akademik.
+    - Sediakan workshop motivasi dan manajemen waktu.
+
+5. **Implementasi Dashboard Monitoring**
+    - Integrasikan model prediksi dropout ke dalam dashboard monitoring kampus.
+    - Tampilkan metrik risiko dropout untuk tiap segmen mahasiswa.
+    - Buat notifikasi dini untuk dosen wali atau bagian kemahasiswaan.
+
+6. **Evaluasi dan Penyesuaian Kurikulum**
+    - Tinjau kembali beban dan struktur kurikulum pada jurusan dengan dropout tinggi.
+    - Sesuaikan metode pembelajaran agar lebih adaptif terhadap kebutuhan mahasiswa.
+
+---
+
+**Kontak:**  
+[GitHub](https://github.com/Profdara) | [LinkedIn](https://www.linkedin.com/in/profdara)  
+Email: danangrestuaji@gmail.com
+
+---
+
+> *Proyek ini bertujuan membantu institusi pendidikan dalam menurunkan tingkat dropout melalui analisis data, pemodelan prediktif, dan dashboard monitoring berbasis data.*
