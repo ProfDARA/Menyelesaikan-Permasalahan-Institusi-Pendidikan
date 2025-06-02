@@ -51,7 +51,6 @@ link : https://lookerstudio.google.com/reporting/07abfe73-0e01-479b-b8de-f1a9de6
 - Distribusi status mahasiswa (Dropout, Enrolled, Graduate)
 - Dropout berdasarkan jurusan (Course) dan kelompok usia (Age Group)
 - Analisis faktor akademik: nilai, jumlah mata kuliah disetujui, progres semester awal
-- Dropout berdasarkan status keuangan (Debtor, Tuition Fees)
 - Visualisasi heatmap dan boxplot untuk insight mendalam
 - Hasil analisis model machine learning (feature importance)
 
