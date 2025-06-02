@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 **Menjalankan script prediksi:**
 - Dapat dijalankan langsung di notebook pada bagian fungsi prediksi peluang dropout mahasiswa.
-- cara kedua run pada terminal dengan kode python cekmodel.py
+- cara kedua run pada terminal : python cekmodel.py
 - cara ketiga eksekusi dengan UI streamlit dengan menggunakan terminal : python -m streamlit run app.py
 - yang keempat model prediksi juga bisa diakses secara online dengan url:  https://menyelesaikan-permasalahan-institusi-pendidikan.streamlit.app/
 
