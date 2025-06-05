@@ -53,24 +53,24 @@ Sistem ini dirancang untuk membantu institusi pendidikan mengidentifikasi risiko
 
 1. 🔬 Melalui Notebook (Jupyter / Colab)
 - Buka file notebook (`notebook.ipynb`).
-- isi pada bagian 
+- isi pada bagian :
 ![alt text](<fitur prediksi.JPG>)
 - run pada notebook,
-- dan hasilnya akan seperti ini
+- dan hasilnya akan seperti ini:
 ![alt text](<fitur prediksi 2.JPG>)
 
 2. Jalankan via Terminal (Script Langsung)
 - Pastikan environment telah di-setup (Python & dependency).
 - Eksekusi model dengan perintah:
   ```bash
-  python cekmodel.py
+  python cekmodel.py: 
 ![alt text](<cekmodelpy1.JPG>)
 
-  hasilnya akan seperti ini
+  hasilnya akan seperti ini:
 ![alt text](<cekmodelpy2.JPG>)
 
 3. cara ketiga eksekusi dengan UI streamlit dengan menggunakan terminal : python -m streamlit run app.py
-isi data pada 
+isi data pada :
 ![alt text](streamlitlokal1.JPG)
 
 klik prediksi dan akan muncul seperti ini:
@@ -78,7 +78,7 @@ klik prediksi dan akan muncul seperti ini:
 
 
 4. model prediksi juga bisa diakses secara online dengan url:  https://menyelesaikan-permasalahan-institusi-pendidikan.streamlit.app/
-isi data pada 
+isi data pada :
 ![alt text](streamlitonline.JPG)
 
 klik prediksi dan akan muncul seperti ini:
