@@ -36,24 +36,54 @@ Dampak negatif yang ditimbulkan:
 pip install -r requirements.txt
 ```
 
-**Menjalankan script prediksi:**
-- Dapat dijalankan langsung di notebook pada bagian fungsi prediksi peluang dropout mahasiswa.
-- cara kedua run pada terminal : python cekmodel.py
-- cara ketiga eksekusi dengan UI streamlit dengan menggunakan terminal : python -m streamlit run app.py
-- yang keempat model prediksi juga bisa diakses secara online dengan url:  https://menyelesaikan-permasalahan-institusi-pendidikan.streamlit.app/
-
 ## Business Dashboard
 
 Dashboard visualisasi yang dikembangkan memberikan gambaran menyeluruh dan interaktif mengenai kondisi mahasiswa di Jaya Jaya Institut. Dashboard ini membantu manajemen dalam memahami tren dropout, distribusi status mahasiswa, dan faktor-faktor utama yang memengaruhi keputusan mahasiswa untuk keluar.
 link : https://lookerstudio.google.com/reporting/07abfe73-0e01-479b-b8de-f1a9de6836f4 
 
-
-**Fitur dan Informasi yang Disajikan:**
+Fitur dan Informasi yang Disajikan:**
 - Distribusi status mahasiswa (Dropout, Enrolled, Graduate)
 - Dropout berdasarkan jurusan (Course) dan kelompok usia (Age Group)
 - Analisis faktor akademik: nilai, jumlah mata kuliah disetujui, progres semester awal
 - Visualisasi heatmap dan boxplot untuk insight mendalam
 - Hasil analisis model machine learning (feature importance)
+
+## Menjalankan Sistem Machine Learning
+Sistem ini dirancang untuk membantu institusi pendidikan mengidentifikasi risiko mahasiswa yang berpotensi Drop Out sejak dini, berdasarkan data akademik, keuangan, dan demografis. Model ini menggunakan algoritma **Random Forest** dengan akurasi tinggi dan telah dioptimalkan untuk analisis prediktif.
+
+1. 🔬 Melalui Notebook (Jupyter / Colab)
+- Buka file notebook (`notebook.ipynb`).
+- isi pada bagian 
+![alt text](<fitur prediksi.JPG>)
+- run pada notebook,
+- dan hasilnya akan seperti ini
+![alt text](<fitur prediksi 2.JPG>)
+
+2. Jalankan via Terminal (Script Langsung)
+- Pastikan environment telah di-setup (Python & dependency).
+- Eksekusi model dengan perintah:
+  ```bash
+  python cekmodel.py
+    ![alt text](<cekmodelpy1.JPG>)
+
+  hasilnya akan seperti ini
+    ![alt text](<cekmodelpy2.JPG>)
+
+3. cara ketiga eksekusi dengan UI streamlit dengan menggunakan terminal : python -m streamlit run app.py
+isi data pada 
+![alt text](streamlitlokal1.JPG)
+
+klik prediksi dan akan muncul seperti ini:
+![alt text](streamlitlokal2.JPG)
+
+
+4. model prediksi juga bisa diakses secara online dengan url:  https://menyelesaikan-permasalahan-institusi-pendidikan.streamlit.app/
+isi data pada 
+![alt text](streamlitonline.JPG)
+
+klik prediksi dan akan muncul seperti ini:
+![alt text](streamlitlokal2.JPG)
+
 
 ## Conclusion
 
@@ -63,11 +93,11 @@ Berdasarkan hasil model **Random Forest** dan analisis data, dapat disimpulkan b
 3. **Usia saat masuk kuliah** dan **jurusan tertentu** memiliki tingkat dropout lebih tinggi, terutama pada kelompok usia muda dan jurusan dengan beban akademik tinggi.
 4. **Faktor ekonomi makro** (GDP, tingkat pengangguran) memiliki pengaruh lebih kecil dibanding faktor akademik dan keuangan individu.
 
-### Insight Utama
+Insight Utama
 
-Dropout mahasiswa bukan hanya persoalan akademik, tetapi juga dipengaruhi oleh faktor keuangan, keterlibatan, dan adaptasi di lingkungan kampus. Intervensi berbasis data sangat penting untuk menurunkan tingkat dropout dan meningkatkan keberhasilan studi mahasiswa.
+Berdasarkan hasil evaluasi model Random Forest dan XGBoost, faktor utama yang memengaruhi risiko mahasiswa Drop Out adalah progres akademik awal, seperti jumlah mata kuliah yang disetujui dan nilai semester 1 dan 2, yang menjadi indikator kuat keberlanjutan studi. Partisipasi dalam evaluasi pembelajaran juga menunjukkan hubungan positif dengan retensi mahasiswa. Selain itu, nilai masuk (admission grade) dan riwayat pendidikan sebelumnya turut menentukan keberhasilan studi. Faktor keuangan, khususnya keteraturan pembayaran biaya kuliah, memiliki pengaruh signifikan terhadap risiko Drop Out. Usia saat pendaftaran dan jurusan tertentu, terutama di kalangan mahasiswa muda, juga berkontribusi terhadap tingkat keluar yang tinggi. Sebaliknya, faktor eksternal seperti GDP dan tingkat pengangguran memiliki pengaruh yang lebih kecil dibandingkan faktor akademik dan keuangan individu. Oleh karena itu, diperlukan intervensi akademik dini, pemantauan pembayaran, skrining risiko saat pendaftaran, serta dukungan psikososial untuk menurunkan angka Drop Out di institusi.
 
-## Rekomendasi Action Items untuk Menurunkan Dropout
+## Rekomendasi Action Items
 
 1. **Intervensi Akademik Dini**
     - Monitoring progres akademik mahasiswa di semester 1 & 2 secara berkala.
