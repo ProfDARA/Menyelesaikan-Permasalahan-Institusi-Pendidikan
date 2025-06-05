@@ -142,8 +142,6 @@ Berdasarkan hasil evaluasi model Random Forest dan XGBoost, faktor utama yang me
     - Tinjau kembali beban dan struktur kurikulum pada jurusan dengan dropout tinggi.
     - Sesuaikan metode pembelajaran agar lebih adaptif terhadap kebutuhan mahasiswa.
 
-##Kesimpulan
-Faktor-faktor akademik, keuangan, dan keterlibatan mahasiswa sangat berpengaruh terhadap risiko Drop Out. Intervensi yang tepat dan berbasis data akan membantu institusi menurunkan tingkat Drop Out dan meningkatkan keberhasilan studi mahasiswa.
 ---
 
 **Kontak:**  
