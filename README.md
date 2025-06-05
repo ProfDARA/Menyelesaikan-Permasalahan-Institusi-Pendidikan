@@ -64,10 +64,10 @@ Sistem ini dirancang untuk membantu institusi pendidikan mengidentifikasi risiko
 - Eksekusi model dengan perintah:
   ```bash
   python cekmodel.py
-    ![alt text](<cekmodelpy1.JPG>)
+![alt text](<cekmodelpy1.JPG>)
 
   hasilnya akan seperti ini
-    ![alt text](<cekmodelpy2.JPG>)
+![alt text](<cekmodelpy2.JPG>)
 
 3. cara ketiga eksekusi dengan UI streamlit dengan menggunakan terminal : python -m streamlit run app.py
 isi data pada 
@@ -142,7 +142,7 @@ Berdasarkan hasil evaluasi model Random Forest dan XGBoost, faktor utama yang me
     - Tinjau kembali beban dan struktur kurikulum pada jurusan dengan dropout tinggi.
     - Sesuaikan metode pembelajaran agar lebih adaptif terhadap kebutuhan mahasiswa.
 
-### Kesimpulan
+Kesimpulan
 Faktor-faktor akademik, keuangan, dan keterlibatan mahasiswa sangat berpengaruh terhadap risiko Drop Out. Intervensi yang tepat dan berbasis data akan membantu institusi menurunkan tingkat Drop Out dan meningkatkan keberhasilan studi mahasiswa.
 ---
 
